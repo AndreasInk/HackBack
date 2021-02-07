@@ -1,0 +1,16 @@
+PODS:
+  - DocumentClassifier (1.2.0)
+
+DEPENDENCIES:
+  - DocumentClassifier (= 1.2.0)
+
+SPEC REPOS:
+  trunk:
+    - DocumentClassifier
+
+SPEC CHECKSUMS:
+  DocumentClassifier: a32b4d0dbcd0c38ec9ef16949c184923e16d818a
+
+PODFILE CHECKSUM: 8afb763eb4c8c968d5a0db4ba5b5797e2fa76396
+
+COCOAPODS: 1.10.0

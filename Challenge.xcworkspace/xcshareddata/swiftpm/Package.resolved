@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "HighlightedTextEditor",
+        "repositoryURL": "https://github.com/kyle-n/HighlightedTextEditor.git",
+        "state": {
+          "branch": null,
+          "revision": "4df552030a0dc9eec67348e8c3112d692deeb1a7",
+          "version": "1.6.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
