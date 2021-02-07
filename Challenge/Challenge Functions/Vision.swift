@@ -450,7 +450,7 @@ class CameraVC3: UIViewController, AVCaptureVideoDataOutputSampleBufferDelegate 
 
                 try! requestHandler.perform([contourRequest])
                 let contoursObservation = contourRequest.results?.first as! VNContoursObservation
-        if contoursObservation.topLevelContours.last!.childContours.count == 1 {
+        if contoursObservation.topLevelContours.last?.childContours.count == 1 {
                 countC = (contoursObservation.topLevelContourCount)
         print(countC)
         }

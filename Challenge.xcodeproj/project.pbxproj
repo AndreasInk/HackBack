@@ -10,6 +10,10 @@
 		C551DC066F4D060D4836B11F /* Pods_Challenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0685AD63C01AD7131A6A5D2 /* Pods_Challenge.framework */; };
 		E133D99025CE764C00595460 /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E133D98F25CE764C00595460 /* IntroView.swift */; };
 		E133D99325CE765200595460 /* IntroPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E133D99225CE765200595460 /* IntroPage.swift */; };
+		E133DA9A25CFA1C100595460 /* IMDBReviewClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E133DA9625CFA1C000595460 /* IMDBReviewClassifier.mlmodel */; };
+		E133DA9B25CFA1C100595460 /* DocumentClassification 11.06.28 PM.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E133DA9725CFA1C000595460 /* DocumentClassification 11.06.28 PM.mlmodel */; };
+		E133DA9C25CFA1C100595460 /* GenderSoundClassification.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E133DA9825CFA1C000595460 /* GenderSoundClassification.mlmodel */; };
+		E133DA9D25CFA1C100595460 /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E133DA9925CFA1C100595460 /* MobileNet.mlmodel */; };
 		E14EAAD425C4C0F300459262 /* Proxima.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14EAAD325C4C0F300459262 /* Proxima.swift */; };
 		E1B8F84425CE3C400022E349 /* CodeDefenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B8F84325CE3C3F0022E349 /* CodeDefenseView.swift */; };
 		E1B8F84825CE3CA60022E349 /* HighlightedTextEditor in Frameworks */ = {isa = PBXBuildFile; productRef = E1B8F84725CE3CA60022E349 /* HighlightedTextEditor */; };
@@ -50,6 +54,10 @@
 		D0685AD63C01AD7131A6A5D2 /* Pods_Challenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Challenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E133D98F25CE764C00595460 /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
 		E133D99225CE765200595460 /* IntroPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroPage.swift; sourceTree = "<group>"; };
+		E133DA9625CFA1C000595460 /* IMDBReviewClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = IMDBReviewClassifier.mlmodel; sourceTree = "<group>"; };
+		E133DA9725CFA1C000595460 /* DocumentClassification 11.06.28 PM.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "DocumentClassification 11.06.28 PM.mlmodel"; sourceTree = "<group>"; };
+		E133DA9825CFA1C000595460 /* GenderSoundClassification.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GenderSoundClassification.mlmodel; sourceTree = "<group>"; };
+		E133DA9925CFA1C100595460 /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNet.mlmodel; sourceTree = "<group>"; };
 		E14EAAD325C4C0F300459262 /* Proxima.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proxima.swift; sourceTree = "<group>"; };
 		E1B8F84325CE3C3F0022E349 /* CodeDefenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeDefenseView.swift; sourceTree = "<group>"; };
 		E1BDE76E25C4BDC1001C4BB1 /* WorkoutCameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutCameraView.swift; sourceTree = "<group>"; };
@@ -143,6 +151,10 @@
 				E1D47C9B25C38D43005C6D6D /* AppDelegate.swift */,
 				E1D47C9D25C38D43005C6D6D /* SceneDelegate.swift */,
 				E1D47D2325C3FF9B005C6D6D /* UserData.swift */,
+				E133DA9725CFA1C000595460 /* DocumentClassification 11.06.28 PM.mlmodel */,
+				E133DA9825CFA1C000595460 /* GenderSoundClassification.mlmodel */,
+				E133DA9625CFA1C000595460 /* IMDBReviewClassifier.mlmodel */,
+				E133DA9925CFA1C100595460 /* MobileNet.mlmodel */,
 				E1D47CB025C38D4A005C6D6D /* Views */,
 				E1D47CA125C38D44005C6D6D /* Assets.xcassets */,
 				E1D47CBA25C38D66005C6D6D /* Challenge Functions */,
@@ -335,18 +347,22 @@
 				E1D47D0025C3C015005C6D6D /* HandGestureProcessor.swift in Sources */,
 				E1D47CB525C38D5C005C6D6D /* Location.swift in Sources */,
 				E1D47CB825C38D62005C6D6D /* Vision.swift in Sources */,
+				E133DA9A25CFA1C100595460 /* IMDBReviewClassifier.mlmodel in Sources */,
 				E1D47CC325C38D9E005C6D6D /* Motion.swift in Sources */,
 				E133D99025CE764C00595460 /* IntroView.swift in Sources */,
 				E1D47D0A25C3D217005C6D6D /* BattleNodeData.swift in Sources */,
+				E133DA9C25CFA1C100595460 /* GenderSoundClassification.mlmodel in Sources */,
 				E1D47CFD25C3C00F005C6D6D /* CameraViewController.swift in Sources */,
 				E1D47CCF25C38F89005C6D6D /* Touch.swift in Sources */,
 				E1D47D2125C3FF01005C6D6D /* HomeNode.swift in Sources */,
 				E1B8F84425CE3C400022E349 /* CodeDefenseView.swift in Sources */,
+				E133DA9D25CFA1C100595460 /* MobileNet.mlmodel in Sources */,
 				E1D47D1A25C3E80D005C6D6D /* CategoryView.swift in Sources */,
 				E14EAAD425C4C0F300459262 /* Proxima.swift in Sources */,
 				E1D47D1E25C3FE74005C6D6D /* HomeView.swift in Sources */,
 				E1BDE76F25C4BDC1001C4BB1 /* WorkoutCameraView.swift in Sources */,
 				E1D47CB225C38D54005C6D6D /* AR.swift in Sources */,
+				E133DA9B25CFA1C100595460 /* DocumentClassification 11.06.28 PM.mlmodel in Sources */,
 				E1D47D0325C3CA2A005C6D6D /* BattleView.swift in Sources */,
 				E1D47CD225C39007005C6D6D /* IfView.swift in Sources */,
 				E1D47CD825C39176005C6D6D /* CreateDefenseIfView.swift in Sources */,

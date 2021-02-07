@@ -25,7 +25,11 @@ struct SolveView: View {
        var motion: MotionManager
     @State var y = 0.0
     @State var x = 0.0
-   
+    let data = (1...13).map { "Item \($0)" }
+
+       let columns = [
+           GridItem(.adaptive(minimum: 80))
+       ]
     var body: some View {
         ZStack {
             Color.clear
@@ -35,10 +39,8 @@ struct SolveView: View {
                
             CustomCameraRepresentable()
                 
-                
-                    Circle()
-                        .frame(width: 100, height: 100, alignment: .center)
-                        .foregroundColor(Color(clue ? "green1" : "background"))
+                Image(systemName: "laptopcomputer")
+                    .foregroundColor(Color("green1"))
                 .onAppear() {
                    
                     let timer = Timer.scheduledTimer(withTimeInterval: 0.1, repeats: true) { timer in
@@ -111,7 +113,7 @@ struct SolveView: View {
                         let timer = Timer.scheduledTimer(withTimeInterval: 0.1, repeats: true) { timer in
                             if isFemale {
                                 femaleCount += 1
-                                if femaleCount > 5 {
+                                if femaleCount > 3 {
                                    
                             DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
                                 withAnimation(.easeInOut) {
@@ -210,6 +212,15 @@ struct SolveView: View {
                  .foregroundColor(Color("green1"))
                    Text("\(c)")
                     .foregroundColor(Color("green2"))
+                    
+                    LazyVGrid(columns: columns, spacing: 20) {
+                                  ForEach(data, id: \.self) { item in
+                                    Circle()
+                                        .foregroundColor(Color("green1"))
+                                        .frame(width: 50, height: 50)
+                                  }
+                              }
+                              .padding(.horizontal)
                 }
                     .onAppear() {
                         let timer = Timer.scheduledTimer(withTimeInterval: 0.1, repeats: true) { timer in
